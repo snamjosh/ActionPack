@@ -31,15 +31,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>08c0e8d7c3107a10d9d679ec050131fc</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Utility - Generate Record Link</sys_name>
         <sys_overrides/>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_08c0e8d7c3107a10d9d679ec050131fc</sys_update_name>
-        <sys_updated_by>viraj.hudlikar</sys_updated_by>
-        <sys_updated_on>2025-10-05 08:07:16</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-09 17:05:15</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -217,30 +217,6 @@
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=f8d1685bc3107a10d9d679ec05013152"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>f8d1685bc3107a10d9d679ec05013152</id>
-        <sys_created_by>viraj.hudlikar</sys_created_by>
-        <sys_created_on>2025-10-05 08:04:53</sys_created_on>
-        <sys_id>cdd1685bc3107a10d9d679ec05013171</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>viraj.hudlikar</sys_updated_by>
-        <sys_updated_on>2025-10-05 08:04:53</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>f8d1685bc3107a10d9d679ec05013152</id>
-        <sys_created_by>viraj.hudlikar</sys_created_by>
-        <sys_created_on>2025-10-05 08:05:41</sys_created_on>
-        <sys_id>e002ac5bc3107a10d9d679ec05013112</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>viraj.hudlikar</sys_updated_by>
-        <sys_updated_on>2025-10-05 08:05:41</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>sysid</field>
         <id>f8d1685bc3107a10d9d679ec05013152</id>
@@ -806,11 +782,11 @@
         <sys_created_on>2025-10-05 08:04:53</sys_created_on>
         <sys_id>74d1685bc3107a10d9d679ec05013167</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>url_string</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_f8d1685bc3107a10d9d679ec05013152_url_string_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:04:53</sys_updated_on>
         <url/>
@@ -829,11 +805,11 @@
         <sys_created_on>2025-10-05 08:04:53</sys_created_on>
         <sys_id>74d1685bc3107a10d9d679ec0501316a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>link_html</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_f8d1685bc3107a10d9d679ec05013152_link_html_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:04:53</sys_updated_on>
         <url/>
@@ -1550,11 +1526,11 @@
         <sys_created_on>2025-10-05 08:02:04</sys_created_on>
         <sys_id>6f21681bc3107a10d9d679ec05013176</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Target Table</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_08c0e8d7c3107a10d9d679ec050131fc_target_table_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:02:04</sys_updated_on>
         <url/>
@@ -1573,11 +1549,11 @@
         <sys_created_on>2025-10-05 08:02:04</sys_created_on>
         <sys_id>6f21681bc3107a10d9d679ec0501319f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Link Text</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_08c0e8d7c3107a10d9d679ec050131fc_link_text_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:02:04</sys_updated_on>
         <url/>
@@ -1596,11 +1572,11 @@
         <sys_created_on>2025-10-05 08:02:04</sys_created_on>
         <sys_id>7321681bc3107a10d9d679ec050131a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>URL Type</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_08c0e8d7c3107a10d9d679ec050131fc_url_type_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:02:04</sys_updated_on>
         <url/>
@@ -1619,11 +1595,11 @@
         <sys_created_on>2025-10-05 08:02:04</sys_created_on>
         <sys_id>a321681bc3107a10d9d679ec05013173</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record Sys ID</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_08c0e8d7c3107a10d9d679ec050131fc_record_sys_id_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:02:04</sys_updated_on>
         <url/>
@@ -1705,11 +1681,11 @@
         <sys_created_on>2025-10-05 08:02:39</sys_created_on>
         <sys_id>00516c1bc3107a10d9d679ec05013116</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>HTML Link</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_08c0e8d7c3107a10d9d679ec050131fc_html_link_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:02:39</sys_updated_on>
         <url/>
@@ -1728,11 +1704,11 @@
         <sys_created_on>2025-10-05 08:02:04</sys_created_on>
         <sys_id>3f21681bc3107a10d9d679ec050131bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_08c0e8d7c3107a10d9d679ec050131fc___action_status___en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:02:04</sys_updated_on>
         <url/>
@@ -1751,11 +1727,11 @@
         <sys_created_on>2025-10-05 08:02:39</sys_created_on>
         <sys_id>48516c1bc3107a10d9d679ec0501310f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Raw URL</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_08c0e8d7c3107a10d9d679ec050131fc_raw_url_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:02:39</sys_updated_on>
         <url/>
@@ -1774,11 +1750,11 @@
         <sys_created_on>2025-10-05 08:02:04</sys_created_on>
         <sys_id>7f21681bc3107a10d9d679ec050131c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_08c0e8d7c3107a10d9d679ec050131fc___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:02:04</sys_updated_on>
         <url/>
@@ -2015,30 +1991,6 @@
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=af52e49bc3107a10d9d679ec05013128"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>af52e49bc3107a10d9d679ec05013128</id>
-        <sys_created_by>viraj.hudlikar</sys_created_by>
-        <sys_created_on>2025-10-05 08:07:16</sys_created_on>
-        <sys_id>7b52e49bc3107a10d9d679ec05013146</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>viraj.hudlikar</sys_updated_by>
-        <sys_updated_on>2025-10-05 08:07:16</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>af52e49bc3107a10d9d679ec05013128</id>
-        <sys_created_by>viraj.hudlikar</sys_created_by>
-        <sys_created_on>2025-10-05 08:07:16</sys_created_on>
-        <sys_id>3f52e49bc3107a10d9d679ec05013146</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>viraj.hudlikar</sys_updated_by>
-        <sys_updated_on>2025-10-05 08:07:16</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>sysid</field>
         <id>af52e49bc3107a10d9d679ec05013128</id>
@@ -2604,11 +2556,11 @@
         <sys_created_on>2025-10-05 08:07:15</sys_created_on>
         <sys_id>a352e49bc3107a10d9d679ec0501313d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>url_string</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_af52e49bc3107a10d9d679ec05013128_url_string_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:07:15</sys_updated_on>
         <url/>
@@ -2627,11 +2579,11 @@
         <sys_created_on>2025-10-05 08:07:15</sys_created_on>
         <sys_id>b352e49bc3107a10d9d679ec05013140</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>link_html</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_af52e49bc3107a10d9d679ec05013128_link_html_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:07:15</sys_updated_on>
         <url/>
@@ -3348,11 +3300,11 @@
         <sys_created_on>2025-10-05 08:07:15</sys_created_on>
         <sys_id>2352e49bc3107a10d9d679ec05013116</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record Sys ID</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_a752e49bc3107a10d9d679ec0501310f_record_sys_id_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:07:15</sys_updated_on>
         <url/>
@@ -3371,11 +3323,11 @@
         <sys_created_on>2025-10-05 08:07:15</sys_created_on>
         <sys_id>2752e49bc3107a10d9d679ec0501311d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Link Text</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_a752e49bc3107a10d9d679ec0501310f_link_text_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:07:15</sys_updated_on>
         <url/>
@@ -3394,11 +3346,11 @@
         <sys_created_on>2025-10-05 08:07:15</sys_created_on>
         <sys_id>ab52e49bc3107a10d9d679ec05013119</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Target Table</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_a752e49bc3107a10d9d679ec0501310f_target_table_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:07:15</sys_updated_on>
         <url/>
@@ -3417,11 +3369,11 @@
         <sys_created_on>2025-10-05 08:07:15</sys_created_on>
         <sys_id>af52e49bc3107a10d9d679ec05013123</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>URL Type</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_a752e49bc3107a10d9d679ec0501310f_url_type_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:07:15</sys_updated_on>
         <url/>
@@ -3503,11 +3455,11 @@
         <sys_created_on>2025-10-05 08:07:16</sys_created_on>
         <sys_id>7b52e49bc3107a10d9d679ec05013168</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a752e49bc3107a10d9d679ec0501310f___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:07:16</sys_updated_on>
         <url/>
@@ -3526,11 +3478,11 @@
         <sys_created_on>2025-10-05 08:07:16</sys_created_on>
         <sys_id>b352e49bc3107a10d9d679ec05013163</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>HTML Link</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a752e49bc3107a10d9d679ec0501310f_html_link_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:07:16</sys_updated_on>
         <url/>
@@ -3549,11 +3501,11 @@
         <sys_created_on>2025-10-05 08:07:16</sys_created_on>
         <sys_id>f752e49bc3107a10d9d679ec0501315f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a752e49bc3107a10d9d679ec0501310f___action_status___en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:07:16</sys_updated_on>
         <url/>
@@ -3572,11 +3524,11 @@
         <sys_created_on>2025-10-05 08:07:16</sys_created_on>
         <sys_id>fb52e49bc3107a10d9d679ec0501315b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Raw URL</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a752e49bc3107a10d9d679ec0501310f_raw_url_en</sys_update_name>
         <sys_updated_by>viraj.hudlikar</sys_updated_by>
         <sys_updated_on>2025-10-05 08:07:16</sys_updated_on>
         <url/>

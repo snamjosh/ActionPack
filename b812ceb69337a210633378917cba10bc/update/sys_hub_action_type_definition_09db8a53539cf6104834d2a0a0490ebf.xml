@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>09db8a53539cf6104834d2a0a0490ebf</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Delete All SP Favourite of User</sys_name>
         <sys_overrides/>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_09db8a53539cf6104834d2a0a0490ebf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-05 16:05:24</sys_updated_on>
+        <sys_updated_on>2025-10-09 17:05:16</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -631,7 +631,7 @@
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=833c0693539cf6104834d2a0a0490e70^sys_idNOT IN400e8257539cf6104834d2a0a0490e67,8c0e8257539cf6104834d2a0a0490e66"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
-        <action_status_metadata_id display_value="Created 2025-10-05 16:49:47">833c0693539cf6104834d2a0a0490e70</action_status_metadata_id>
+        <action_status_metadata_id display_value="Created 2025-10-05 08:49:47">833c0693539cf6104834d2a0a0490e70</action_status_metadata_id>
         <condition>{{step[ea024751-b69b-4bf3-b9f0-a63ef5358180].count}}=0</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>no favourites present</label>
@@ -645,7 +645,7 @@
         <sys_updated_on>2025-10-05 15:57:30</sys_updated_on>
     </sys_hub_status_condition>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
-        <action_status_metadata_id display_value="Created 2025-10-05 16:49:47">833c0693539cf6104834d2a0a0490e70</action_status_metadata_id>
+        <action_status_metadata_id display_value="Created 2025-10-05 08:49:47">833c0693539cf6104834d2a0a0490e70</action_status_metadata_id>
         <condition>{{step[f362cc0d-c993-491c-ad79-394536846abb].__step_status__.message}}!=Success</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>If not deleted</label>
@@ -671,11 +671,11 @@
         <sys_created_on>2025-10-05 15:49:46</sys_created_on>
         <sys_id>723c8e53539cf6104834d2a0a0490eba</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>user</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_09db8a53539cf6104834d2a0a0490ebf_user_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 15:49:46</sys_updated_on>
         <url/>
@@ -695,11 +695,11 @@
         <sys_created_on>2025-10-05 15:52:56</sys_created_on>
         <sys_id>05fc86d3539cf6104834d2a0a0490e7a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Deleted Msg</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_09db8a53539cf6104834d2a0a0490ebf_deleted_msg_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 15:52:56</sys_updated_on>
         <url/>
@@ -718,11 +718,11 @@
         <sys_created_on>2025-10-05 15:49:47</sys_created_on>
         <sys_id>0b3c0693539cf6104834d2a0a0490e69</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_09db8a53539cf6104834d2a0a0490ebf___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 15:49:47</sys_updated_on>
         <url/>
@@ -741,11 +741,11 @@
         <sys_created_on>2025-10-05 15:49:47</sys_created_on>
         <sys_id>473c0693539cf6104834d2a0a0490e63</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_09db8a53539cf6104834d2a0a0490ebf___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 15:49:47</sys_updated_on>
         <url/>
@@ -1396,7 +1396,7 @@
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=b1bd8a17539cf6104834d2a0a0490e7c^sys_idNOT IN7fcf421b539cf6104834d2a0a0490e2e,ffcf421b539cf6104834d2a0a0490e2e"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
-        <action_status_metadata_id display_value="Created 2025-10-05 16:56:15">b1bd8a17539cf6104834d2a0a0490e7c</action_status_metadata_id>
+        <action_status_metadata_id display_value="Created 2025-10-05 08:56:15">b1bd8a17539cf6104834d2a0a0490e7c</action_status_metadata_id>
         <condition>{{step[f362cc0d-c993-491c-ad79-394536846abb].__step_status__.message}}!=Success</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>If not deleted</label>
@@ -1410,7 +1410,7 @@
         <sys_updated_on>2025-10-05 16:05:24</sys_updated_on>
     </sys_hub_status_condition>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
-        <action_status_metadata_id display_value="Created 2025-10-05 16:56:15">b1bd8a17539cf6104834d2a0a0490e7c</action_status_metadata_id>
+        <action_status_metadata_id display_value="Created 2025-10-05 08:56:15">b1bd8a17539cf6104834d2a0a0490e7c</action_status_metadata_id>
         <condition>{{step[ea024751-b69b-4bf3-b9f0-a63ef5358180].count}}=0</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>no favourites present</label>
@@ -1436,11 +1436,11 @@
         <sys_created_on>2025-10-05 15:56:15</sys_created_on>
         <sys_id>adbd8a17539cf6104834d2a0a0490e28</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>user</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e1bd8a17539cf6104834d2a0a0490e21_user_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 15:56:15</sys_updated_on>
         <url/>
@@ -1460,11 +1460,11 @@
         <sys_created_on>2025-10-05 15:56:15</sys_created_on>
         <sys_id>35bd8a17539cf6104834d2a0a0490e45</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Deleted Msg</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e1bd8a17539cf6104834d2a0a0490e21_deleted_msg_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 15:56:15</sys_updated_on>
         <url/>
@@ -1483,11 +1483,11 @@
         <sys_created_on>2025-10-05 15:56:15</sys_created_on>
         <sys_id>39bd8a17539cf6104834d2a0a0490e49</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e1bd8a17539cf6104834d2a0a0490e21___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 15:56:15</sys_updated_on>
         <url/>
@@ -1506,11 +1506,11 @@
         <sys_created_on>2025-10-05 15:56:15</sys_created_on>
         <sys_id>fdbd8a17539cf6104834d2a0a0490e74</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e1bd8a17539cf6104834d2a0a0490e21___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 15:56:15</sys_updated_on>
         <url/>

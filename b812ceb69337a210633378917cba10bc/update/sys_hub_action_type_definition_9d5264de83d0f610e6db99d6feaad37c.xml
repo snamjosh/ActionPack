@@ -31,15 +31,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9d5264de83d0f610e6db99d6feaad37c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Retrieve value from JSON object</sys_name>
         <sys_overrides/>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_9d5264de83d0f610e6db99d6feaad37c</sys_update_name>
-        <sys_updated_by>earl.duque</sys_updated_by>
-        <sys_updated_on>2025-10-02 05:51:58</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-09 17:06:43</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -232,18 +232,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=3f8428d28314f610e6db99d6feaad3eb"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>3f8428d28314f610e6db99d6feaad3eb</id>
-        <sys_created_by>earl.duque</sys_created_by>
-        <sys_created_on>2025-10-02 05:42:54</sys_created_on>
-        <sys_id>009468d28314f610e6db99d6feaad308</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>earl.duque</sys_updated_by>
-        <sys_updated_on>2025-10-02 05:42:54</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>objectParsed</field>
         <id>3f8428d28314f610e6db99d6feaad3eb</id>
         <sys_created_by>earl.duque</sys_created_by>
@@ -278,18 +266,6 @@
         <sys_updated_on>2025-10-02 05:42:54</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_3f8428d28314f610e6db99d6feaad3eb</table>
         <value>{{action.json_object_stringified}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>3f8428d28314f610e6db99d6feaad3eb</id>
-        <sys_created_by>earl.duque</sys_created_by>
-        <sys_created_on>2025-10-02 05:42:54</sys_created_on>
-        <sys_id>c49468d28314f610e6db99d6feaad308</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>earl.duque</sys_updated_by>
-        <sys_updated_on>2025-10-02 05:42:54</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_3f8428d28314f610e6db99d6feaad3eb^id=3f8428d28314f610e6db99d6feaad3eb"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=3f8428d28314f610e6db99d6feaad3eb"/>
@@ -725,11 +701,11 @@
         <sys_created_on>2025-10-02 05:42:54</sys_created_on>
         <sys_id>089428d28314f610e6db99d6feaad3fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>objectValueString</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3f8428d28314f610e6db99d6feaad3eb_objectvaluestring_en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:42:54</sys_updated_on>
         <url/>
@@ -748,11 +724,11 @@
         <sys_created_on>2025-10-02 05:42:54</sys_created_on>
         <sys_id>089468d28314f610e6db99d6feaad300</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>objectValueJSON</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3f8428d28314f610e6db99d6feaad3eb_objectvaluejson_en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:42:54</sys_updated_on>
         <url/>
@@ -1385,11 +1361,11 @@
         <sys_created_on>2025-10-02 05:42:54</sys_created_on>
         <sys_id>738428d28314f610e6db99d6feaad3c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON object (parsed)</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9d5264de83d0f610e6db99d6feaad37c_json_object_parsed_en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:42:54</sys_updated_on>
         <url/>
@@ -1408,11 +1384,11 @@
         <sys_created_on>2025-10-02 05:42:54</sys_created_on>
         <sys_id>bf8428d28314f610e6db99d6feaad3c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON object (stringified)</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9d5264de83d0f610e6db99d6feaad37c_json_object_stringified_en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:42:54</sys_updated_on>
         <url/>
@@ -1431,11 +1407,11 @@
         <sys_created_on>2025-10-02 05:42:54</sys_created_on>
         <sys_id>fb8428d28314f610e6db99d6feaad3ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Property</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9d5264de83d0f610e6db99d6feaad37c_property_en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:42:54</sys_updated_on>
         <url/>
@@ -1455,11 +1431,11 @@
         <sys_created_on>2025-10-02 05:42:54</sys_created_on>
         <sys_id>449468d28314f610e6db99d6feaad312</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9d5264de83d0f610e6db99d6feaad37c___action_status___en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:42:54</sys_updated_on>
         <url/>
@@ -1478,11 +1454,11 @@
         <sys_created_on>2025-10-02 05:42:54</sys_created_on>
         <sys_id>c09468d28314f610e6db99d6feaad316</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Value as string</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9d5264de83d0f610e6db99d6feaad37c_value_as_string_en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:42:54</sys_updated_on>
         <url/>
@@ -1501,11 +1477,11 @@
         <sys_created_on>2025-10-02 05:42:55</sys_created_on>
         <sys_id>c09468d28314f610e6db99d6feaad32d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Value as object</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9d5264de83d0f610e6db99d6feaad37c_value_as_object_en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:42:55</sys_updated_on>
         <url/>
@@ -1524,11 +1500,11 @@
         <sys_created_on>2025-10-02 05:42:54</sys_created_on>
         <sys_id>cc9468d28314f610e6db99d6feaad31c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9d5264de83d0f610e6db99d6feaad37c___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:42:54</sys_updated_on>
         <url/>
@@ -1780,18 +1756,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=fca668968314f610e6db99d6feaad387"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>fca668968314f610e6db99d6feaad387</id>
-        <sys_created_by>earl.duque</sys_created_by>
-        <sys_created_on>2025-10-02 05:51:58</sys_created_on>
-        <sys_id>7ca668968314f610e6db99d6feaad3ae</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>earl.duque</sys_updated_by>
-        <sys_updated_on>2025-10-02 05:51:58</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>objectParsed</field>
         <id>fca668968314f610e6db99d6feaad387</id>
         <sys_created_by>earl.duque</sys_created_by>
@@ -1826,18 +1790,6 @@
         <sys_updated_on>2025-10-02 05:51:58</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_fca668968314f610e6db99d6feaad387</table>
         <value>{{action.json_object_stringified}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>fca668968314f610e6db99d6feaad387</id>
-        <sys_created_by>earl.duque</sys_created_by>
-        <sys_created_on>2025-10-02 05:51:58</sys_created_on>
-        <sys_id>30a668968314f610e6db99d6feaad3af</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>earl.duque</sys_updated_by>
-        <sys_updated_on>2025-10-02 05:51:58</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_fca668968314f610e6db99d6feaad387^id=fca668968314f610e6db99d6feaad387"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=fca668968314f610e6db99d6feaad387"/>
@@ -2273,11 +2225,11 @@
         <sys_created_on>2025-10-02 05:51:58</sys_created_on>
         <sys_id>38a668968314f610e6db99d6feaad3a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>objectValueJSON</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_fca668968314f610e6db99d6feaad387_objectvaluejson_en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:51:58</sys_updated_on>
         <url/>
@@ -2296,11 +2248,11 @@
         <sys_created_on>2025-10-02 05:51:58</sys_created_on>
         <sys_id>f4a668968314f610e6db99d6feaad3a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>objectValueString</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_fca668968314f610e6db99d6feaad387_objectvaluestring_en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:51:58</sys_updated_on>
         <url/>
@@ -2933,11 +2885,11 @@
         <sys_created_on>2025-10-02 05:51:57</sys_created_on>
         <sys_id>24a668968314f610e6db99d6feaad36f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON object (parsed)</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_aca668968314f610e6db99d6feaad35b_json_object_parsed_en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:51:57</sys_updated_on>
         <url/>
@@ -2956,11 +2908,11 @@
         <sys_created_on>2025-10-02 05:51:58</sys_created_on>
         <sys_id>b8a668968314f610e6db99d6feaad376</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Property</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_aca668968314f610e6db99d6feaad35b_property_en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:51:58</sys_updated_on>
         <url/>
@@ -2979,11 +2931,11 @@
         <sys_created_on>2025-10-02 05:51:58</sys_created_on>
         <sys_id>eca668968314f610e6db99d6feaad372</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>JSON object (stringified)</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_aca668968314f610e6db99d6feaad35b_json_object_stringified_en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:51:58</sys_updated_on>
         <url/>
@@ -3003,11 +2955,11 @@
         <sys_created_on>2025-10-02 05:51:58</sys_created_on>
         <sys_id>34a668968314f610e6db99d6feaad3bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Value as string</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_aca668968314f610e6db99d6feaad35b_value_as_string_en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:51:58</sys_updated_on>
         <url/>
@@ -3026,11 +2978,11 @@
         <sys_created_on>2025-10-02 05:51:58</sys_created_on>
         <sys_id>38a668968314f610e6db99d6feaad3b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_aca668968314f610e6db99d6feaad35b___action_status___en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:51:58</sys_updated_on>
         <url/>
@@ -3049,11 +3001,11 @@
         <sys_created_on>2025-10-02 05:51:58</sys_created_on>
         <sys_id>38a668968314f610e6db99d6feaad3c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Value as object</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_aca668968314f610e6db99d6feaad35b_value_as_object_en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:51:58</sys_updated_on>
         <url/>
@@ -3072,11 +3024,11 @@
         <sys_created_on>2025-10-02 05:51:58</sys_created_on>
         <sys_id>7ca668968314f610e6db99d6feaad3c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_aca668968314f610e6db99d6feaad35b___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>earl.duque</sys_updated_by>
         <sys_updated_on>2025-10-02 05:51:58</sys_updated_on>
         <url/>

@@ -34,15 +34,15 @@ Else, the count and the available list of various versions of a store app would 
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cef1dcb78310f210932c5529feaad35d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Check the available versions of a store app</sys_name>
         <sys_overrides/>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_cef1dcb78310f210932c5529feaad35d</sys_update_name>
-        <sys_updated_by>GokulkumarV</sys_updated_by>
-        <sys_updated_on>2025-10-06 21:14:45</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-09 17:07:05</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -813,11 +813,11 @@ Else, the count and the available list of various versions of a store app would 
         <sys_created_on>2025-10-06 20:12:34</sys_created_on>
         <sys_id>9ef1dcb78310f210932c5529feaad368</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Store App</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_cef1dcb78310f210932c5529feaad35d_store_app_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 20:12:34</sys_updated_on>
         <url/>
@@ -837,11 +837,11 @@ Else, the count and the available list of various versions of a store app would 
         <sys_created_on>2025-10-06 20:12:36</sys_created_on>
         <sys_id>7ef110f78310f210932c5529feaad312</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Records</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_cef1dcb78310f210932c5529feaad35d_records1_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 20:12:36</sys_updated_on>
         <url/>
@@ -860,11 +860,11 @@ Else, the count and the available list of various versions of a store app would 
         <sys_created_on>2025-10-06 20:12:35</sys_created_on>
         <sys_id>a2f1dcb78310f210932c5529feaad3cc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Count</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_cef1dcb78310f210932c5529feaad35d_count_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 20:12:35</sys_updated_on>
         <url/>
@@ -883,11 +883,11 @@ Else, the count and the available list of various versions of a store app would 
         <sys_created_on>2025-10-06 20:12:35</sys_created_on>
         <sys_id>a6f1dcb78310f210932c5529feaad3d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_cef1dcb78310f210932c5529feaad35d___action_status___en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 20:12:35</sys_updated_on>
         <url/>
@@ -906,11 +906,11 @@ Else, the count and the available list of various versions of a store app would 
         <sys_created_on>2025-10-06 20:12:36</sys_created_on>
         <sys_id>baf110f78310f210932c5529feaad30c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_cef1dcb78310f210932c5529feaad35d_table_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 20:12:36</sys_updated_on>
         <url/>
@@ -929,11 +929,11 @@ Else, the count and the available list of various versions of a store app would 
         <sys_created_on>2025-10-06 20:12:36</sys_created_on>
         <sys_id>eaf1dcb78310f210932c5529feaad3d6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_cef1dcb78310f210932c5529feaad35d___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 20:12:36</sys_updated_on>
         <url/>
@@ -1743,11 +1743,11 @@ Else, the count and the available list of various versions of a store app would 
         <sys_created_on>2025-10-06 20:12:49</sys_created_on>
         <sys_id>3502d0f78310f210932c5529feaad39f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Store App</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3102d0f78310f210932c5529feaad397_store_app_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 20:12:49</sys_updated_on>
         <url/>
@@ -1767,11 +1767,11 @@ Else, the count and the available list of various versions of a store app would 
         <sys_created_on>2025-10-06 20:12:49</sys_created_on>
         <sys_id>0e02d0f78310f210932c5529feaad3f2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3102d0f78310f210932c5529feaad397_table_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 20:12:49</sys_updated_on>
         <url/>
@@ -1790,11 +1790,11 @@ Else, the count and the available list of various versions of a store app would 
         <sys_created_on>2025-10-06 20:12:49</sys_created_on>
         <sys_id>3d02d0f78310f210932c5529feaad3b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3102d0f78310f210932c5529feaad397___action_status___en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 20:12:49</sys_updated_on>
         <url/>
@@ -1813,11 +1813,11 @@ Else, the count and the available list of various versions of a store app would 
         <sys_created_on>2025-10-06 20:12:49</sys_created_on>
         <sys_id>4e02d0f78310f210932c5529feaad3f8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Records</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3102d0f78310f210932c5529feaad397_records1_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 20:12:49</sys_updated_on>
         <url/>
@@ -1836,11 +1836,11 @@ Else, the count and the available list of various versions of a store app would 
         <sys_created_on>2025-10-06 20:12:49</sys_created_on>
         <sys_id>b902d0f78310f210932c5529feaad3b2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Count</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3102d0f78310f210932c5529feaad397_count_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 20:12:49</sys_updated_on>
         <url/>
@@ -1859,11 +1859,11 @@ Else, the count and the available list of various versions of a store app would 
         <sys_created_on>2025-10-06 20:12:49</sys_created_on>
         <sys_id>ca02d0f78310f210932c5529feaad3ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3102d0f78310f210932c5529feaad397___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 20:12:49</sys_updated_on>
         <url/>

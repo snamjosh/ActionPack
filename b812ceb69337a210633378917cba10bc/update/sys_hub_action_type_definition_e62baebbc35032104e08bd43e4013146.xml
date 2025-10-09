@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e62baebbc35032104e08bd43e4013146</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Generate QR Code from Text input</sys_name>
         <sys_overrides/>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_e62baebbc35032104e08bd43e4013146</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 07:22:03</sys_updated_on>
+        <sys_updated_on>2025-10-09 17:07:24</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -185,18 +185,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=262baa7fc35032104e08bd43e40131cf"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>262baa7fc35032104e08bd43e40131cf</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-07 07:21:54</sys_created_on>
-        <sys_id>fe2baa7fc35032104e08bd43e40131f0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 07:21:54</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>image_format</field>
         <id>262baa7fc35032104e08bd43e40131cf</id>
         <sys_created_by>admin</sys_created_by>
@@ -207,18 +195,6 @@
         <sys_updated_on>2025-10-07 07:21:54</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_262baa7fc35032104e08bd43e40131cf</table>
         <value>{{action.image_format}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>262baa7fc35032104e08bd43e40131cf</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-07 07:21:54</sys_created_on>
-        <sys_id>b22baa7fc35032104e08bd43e40131f1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 07:21:54</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>text_to_encode</field>
@@ -487,7 +463,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=262baa7fc35032104e08bd43e40131cf"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_262baa7fc35032104e08bd43e40131cf^sys_idNOT IN7e2baa7fc35032104e08bd43e40131e9"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>qr_code_url</element>
         <help/>
@@ -501,11 +476,11 @@
         <sys_created_on>2025-10-07 07:21:53</sys_created_on>
         <sys_id>7e2baa7fc35032104e08bd43e40131e9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>qr_code_url</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_262baa7fc35032104e08bd43e40131cf_qr_code_url_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-07 07:21:53</sys_updated_on>
         <url/>
@@ -982,7 +957,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-07 07:21:54</sys_updated_on>
     </sys_hub_status_condition>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_e62baebbc35032104e08bd43e4013146^sys_idNOT INa22baa7fc35032104e08bd43e40131ca,ae2baebbc35032104e08bd43e401314e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>image_format</element>
         <help/>
@@ -996,11 +970,11 @@
         <sys_created_on>2025-10-07 07:21:53</sys_created_on>
         <sys_id>a22baa7fc35032104e08bd43e40131ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Image format</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e62baebbc35032104e08bd43e4013146_image_format_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-07 07:21:53</sys_updated_on>
         <url/>
@@ -1019,11 +993,11 @@
         <sys_created_on>2025-10-07 07:21:53</sys_created_on>
         <sys_id>ae2baebbc35032104e08bd43e401314e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Text to Encode</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e62baebbc35032104e08bd43e4013146_text_to_encode_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-07 07:21:53</sys_updated_on>
         <url/>
@@ -1072,7 +1046,6 @@
             <value>svg</value>
         </sys_choice>
     </sys_choice>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_e62baebbc35032104e08bd43e4013146^sys_idNOT IN362bea7fc35032104e08bd43e4013103,3e2baa7fc35032104e08bd43e40131f8,722baa7fc35032104e08bd43e40131fd"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
         <help/>
@@ -1086,11 +1059,11 @@
         <sys_created_on>2025-10-07 07:21:54</sys_created_on>
         <sys_id>362bea7fc35032104e08bd43e4013103</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e62baebbc35032104e08bd43e4013146___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-07 07:21:54</sys_updated_on>
         <url/>
@@ -1109,11 +1082,11 @@
         <sys_created_on>2025-10-07 07:21:54</sys_created_on>
         <sys_id>3e2baa7fc35032104e08bd43e40131f8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>qr_code_url</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e62baebbc35032104e08bd43e4013146_qr_code_url_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-07 07:21:54</sys_updated_on>
         <url/>
@@ -1132,11 +1105,11 @@
         <sys_created_on>2025-10-07 07:21:54</sys_created_on>
         <sys_id>722baa7fc35032104e08bd43e40131fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e62baebbc35032104e08bd43e4013146___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-07 07:21:54</sys_updated_on>
         <url/>
@@ -1341,18 +1314,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=743b2e7fc35032104e08bd43e4013142"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>743b2e7fc35032104e08bd43e4013142</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-07 07:22:02</sys_created_on>
-        <sys_id>383b2e7fc35032104e08bd43e4013164</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 07:22:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>image_format</field>
         <id>743b2e7fc35032104e08bd43e4013142</id>
         <sys_created_by>admin</sys_created_by>
@@ -1363,18 +1324,6 @@
         <sys_updated_on>2025-10-07 07:22:02</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_743b2e7fc35032104e08bd43e4013142</table>
         <value>{{action.image_format}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>743b2e7fc35032104e08bd43e4013142</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-07 07:22:02</sys_created_on>
-        <sys_id>f83b2e7fc35032104e08bd43e4013164</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 07:22:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>text_to_encode</field>
@@ -1643,7 +1592,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=743b2e7fc35032104e08bd43e4013142"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_743b2e7fc35032104e08bd43e4013142^sys_idNOT IN7c3b2e7fc35032104e08bd43e401315d"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>qr_code_url</element>
         <help/>
@@ -1657,11 +1605,11 @@
         <sys_created_on>2025-10-07 07:22:02</sys_created_on>
         <sys_id>7c3b2e7fc35032104e08bd43e401315d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>qr_code_url</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_743b2e7fc35032104e08bd43e4013142_qr_code_url_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-07 07:22:02</sys_updated_on>
         <url/>
@@ -2138,7 +2086,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-07 07:22:03</sys_updated_on>
     </sys_hub_status_condition>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_ac3b2e7fc35032104e08bd43e4013122^sys_idNOT IN303b2e7fc35032104e08bd43e401313d,3c3b2e7fc35032104e08bd43e4013129"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>image_format</element>
         <help/>
@@ -2152,11 +2099,11 @@
         <sys_created_on>2025-10-07 07:22:02</sys_created_on>
         <sys_id>303b2e7fc35032104e08bd43e401313d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Image format</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ac3b2e7fc35032104e08bd43e4013122_image_format_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-07 07:22:02</sys_updated_on>
         <url/>
@@ -2175,11 +2122,11 @@
         <sys_created_on>2025-10-07 07:22:02</sys_created_on>
         <sys_id>3c3b2e7fc35032104e08bd43e4013129</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Text to Encode</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ac3b2e7fc35032104e08bd43e4013122_text_to_encode_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-07 07:22:02</sys_updated_on>
         <url/>
@@ -2228,7 +2175,6 @@
             <value>png</value>
         </sys_choice>
     </sys_choice>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_ac3b2e7fc35032104e08bd43e4013122^sys_idNOT INb43b2e7fc35032104e08bd43e4013170,f03b2e7fc35032104e08bd43e401316c,f43b2e7fc35032104e08bd43e4013176"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
@@ -2242,11 +2188,11 @@
         <sys_created_on>2025-10-07 07:22:02</sys_created_on>
         <sys_id>b43b2e7fc35032104e08bd43e4013170</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ac3b2e7fc35032104e08bd43e4013122___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-07 07:22:02</sys_updated_on>
         <url/>
@@ -2265,11 +2211,11 @@
         <sys_created_on>2025-10-07 07:22:02</sys_created_on>
         <sys_id>f03b2e7fc35032104e08bd43e401316c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>qr_code_url</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ac3b2e7fc35032104e08bd43e4013122_qr_code_url_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-07 07:22:02</sys_updated_on>
         <url/>
@@ -2288,11 +2234,11 @@
         <sys_created_on>2025-10-07 07:22:02</sys_created_on>
         <sys_id>f43b2e7fc35032104e08bd43e4013176</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ac3b2e7fc35032104e08bd43e4013122___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-07 07:22:02</sys_updated_on>
         <url/>

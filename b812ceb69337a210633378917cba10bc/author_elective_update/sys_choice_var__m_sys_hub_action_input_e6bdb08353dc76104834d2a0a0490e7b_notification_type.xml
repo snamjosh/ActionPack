@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="notification_type" table="var__m_sys_hub_action_input_e6bdb08353dc76104834d2a0a0490e7b" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>notification_type</element>
+            <name>var__m_sys_hub_action_input_e6bdb08353dc76104834d2a0a0490e7b</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-09 17:05:51</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>notification_type</sys_name>
+            <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_e6bdb08353dc76104834d2a0a0490e7b_notification_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-09 17:05:51</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_e6bdb08353dc76104834d2a0a0490e7b</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-04 15:28:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-04 15:28:18</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_e6bdb08353dc76104834d2a0a0490e7b</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-04 15:28:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-04 15:28:18</sys_updated_on>
+            <value>Email</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Instant Message</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_e6bdb08353dc76104834d2a0a0490e7b</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-04 15:28:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-04 15:28:18</sys_updated_on>
+            <value>Instant Message</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Push</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_e6bdb08353dc76104834d2a0a0490e7b</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-04 15:28:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-04 15:28:18</sys_updated_on>
+            <value>Push</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SMS</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_e6bdb08353dc76104834d2a0a0490e7b</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-04 15:28:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-04 15:28:18</sys_updated_on>
+            <value>SMS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Voice</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_e6bdb08353dc76104834d2a0a0490e7b</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-04 15:28:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-04 15:28:18</sys_updated_on>
+            <value>Voice</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

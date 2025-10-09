@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="model_deleted" label="Model Deleted" language="en" table="var__m_sys_hub_action_output_7ff8b76bc3907a10abae3eec0501314d">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>model_deleted</element>
+            <help/>
+            <hint/>
+            <label>Model Deleted</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_7ff8b76bc3907a10abae3eec0501314d</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-06 18:32:03</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Model Deleted</sys_name>
+            <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7ff8b76bc3907a10abae3eec0501314d_model_deleted_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-06 18:32:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

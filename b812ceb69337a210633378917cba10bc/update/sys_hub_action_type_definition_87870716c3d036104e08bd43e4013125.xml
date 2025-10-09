@@ -256,18 +256,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5f8787d6c3d036104e08bd43e40131dc"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>5f8787d6c3d036104e08bd43e40131dc</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-02 17:35:02</sys_created_on>
-        <sys_id>5787c7d6c3d036104e08bd43e4013126</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-02 17:35:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>recordSysId</field>
         <id>5f8787d6c3d036104e08bd43e40131dc</id>
         <sys_created_by>admin</sys_created_by>
@@ -278,18 +266,6 @@
         <sys_updated_on>2025-10-02 17:35:02</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_5f8787d6c3d036104e08bd43e40131dc</table>
         <value>{{action.record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>5f8787d6c3d036104e08bd43e40131dc</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-02 17:35:02</sys_created_on>
-        <sys_id>1f87c7d6c3d036104e08bd43e4013126</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-02 17:35:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>tableName</field>
@@ -902,7 +878,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=5f8787d6c3d036104e08bd43e40131dc"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_5f8787d6c3d036104e08bd43e40131dc^sys_idNOT IN1387c7d6c3d036104e08bd43e401311b,5b87c7d6c3d036104e08bd43e4013117,9387c7d6c3d036104e08bd43e4013114,d787c7d6c3d036104e08bd43e401311e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>taggingsuccess</element>
         <help/>
@@ -916,11 +891,11 @@
         <sys_created_on>2025-10-02 17:35:02</sys_created_on>
         <sys_id>1387c7d6c3d036104e08bd43e401311b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Tag Success</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5f8787d6c3d036104e08bd43e40131dc_taggingsuccess_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-02 17:35:02</sys_updated_on>
         <url/>
@@ -939,11 +914,11 @@
         <sys_created_on>2025-10-02 17:35:01</sys_created_on>
         <sys_id>5b87c7d6c3d036104e08bd43e4013117</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Tag Created</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5f8787d6c3d036104e08bd43e40131dc_tagcreated_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-02 17:35:01</sys_updated_on>
         <url/>
@@ -962,11 +937,11 @@
         <sys_created_on>2025-10-02 17:35:01</sys_created_on>
         <sys_id>9387c7d6c3d036104e08bd43e4013114</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Tag  Id</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5f8787d6c3d036104e08bd43e40131dc_tagsysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-02 17:35:01</sys_updated_on>
         <url/>
@@ -985,11 +960,11 @@
         <sys_created_on>2025-10-02 17:35:02</sys_created_on>
         <sys_id>d787c7d6c3d036104e08bd43e401311e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error Msg</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5f8787d6c3d036104e08bd43e40131dc_errormessage_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-02 17:35:02</sys_updated_on>
         <url/>
@@ -1811,7 +1786,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-02 17:35:02</sys_updated_on>
     </sys_hub_status_condition>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_87870716c3d036104e08bd43e4013125^sys_idNOT IN5f8787d6c3d036104e08bd43e40131c6,9b8787d6c3d036104e08bd43e40131c2,d78787d6c3d036104e08bd43e40131d7"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>record</element>
         <help/>
@@ -1825,11 +1799,11 @@
         <sys_created_on>2025-10-02 17:35:01</sys_created_on>
         <sys_id>5f8787d6c3d036104e08bd43e40131c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_87870716c3d036104e08bd43e4013125_record_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-02 17:35:01</sys_updated_on>
         <url/>
@@ -1848,11 +1822,11 @@
         <sys_created_on>2025-10-02 17:35:01</sys_created_on>
         <sys_id>9b8787d6c3d036104e08bd43e40131c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_87870716c3d036104e08bd43e4013125_table_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-02 17:35:01</sys_updated_on>
         <url/>
@@ -1871,18 +1845,17 @@
         <sys_created_on>2025-10-02 17:35:01</sys_created_on>
         <sys_id>d78787d6c3d036104e08bd43e40131d7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Tag Name</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_87870716c3d036104e08bd43e4013125_tag_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-02 17:35:01</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_87870716c3d036104e08bd43e4013125"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_87870716c3d036104e08bd43e4013125^sys_idNOT IN5387c7d6c3d036104e08bd43e4013130,a787c7d6c3d036104e08bd43e4013134,a787c7d6c3d036104e08bd43e401313f,ab87c7d6c3d036104e08bd43e4013138,ab87c7d6c3d036104e08bd43e4013143,af87c7d6c3d036104e08bd43e4013147"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>tag_sys_id</element>
         <help/>
@@ -1896,11 +1869,11 @@
         <sys_created_on>2025-10-02 17:35:02</sys_created_on>
         <sys_id>5387c7d6c3d036104e08bd43e4013130</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Tag Sys Id</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_87870716c3d036104e08bd43e4013125_tag_sys_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-02 17:35:02</sys_updated_on>
         <url/>
@@ -1919,11 +1892,11 @@
         <sys_created_on>2025-10-02 17:35:02</sys_created_on>
         <sys_id>a787c7d6c3d036104e08bd43e4013134</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_87870716c3d036104e08bd43e4013125___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-02 17:35:02</sys_updated_on>
         <url/>
@@ -1942,11 +1915,11 @@
         <sys_created_on>2025-10-02 17:35:02</sys_created_on>
         <sys_id>a787c7d6c3d036104e08bd43e401313f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_87870716c3d036104e08bd43e4013125___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-02 17:35:02</sys_updated_on>
         <url/>
@@ -1965,11 +1938,11 @@
         <sys_created_on>2025-10-02 17:35:02</sys_created_on>
         <sys_id>ab87c7d6c3d036104e08bd43e4013138</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Tag Success</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_87870716c3d036104e08bd43e4013125_tag_success_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-02 17:35:02</sys_updated_on>
         <url/>
@@ -1988,11 +1961,11 @@
         <sys_created_on>2025-10-02 17:35:02</sys_created_on>
         <sys_id>ab87c7d6c3d036104e08bd43e4013143</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Tag created</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_87870716c3d036104e08bd43e4013125_tag_created_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-02 17:35:02</sys_updated_on>
         <url/>
@@ -2011,11 +1984,11 @@
         <sys_created_on>2025-10-02 17:35:02</sys_created_on>
         <sys_id>af87c7d6c3d036104e08bd43e4013147</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error message</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_87870716c3d036104e08bd43e4013125_error_message_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-02 17:35:02</sys_updated_on>
         <url/>

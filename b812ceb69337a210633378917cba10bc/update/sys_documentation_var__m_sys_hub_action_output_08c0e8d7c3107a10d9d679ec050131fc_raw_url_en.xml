@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="raw_url" label="Raw URL" language="en" table="var__m_sys_hub_action_output_08c0e8d7c3107a10d9d679ec050131fc">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>raw_url</element>
+            <help/>
+            <hint/>
+            <label>Raw URL</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_08c0e8d7c3107a10d9d679ec050131fc</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>viraj.hudlikar</sys_created_by>
+            <sys_created_on>2025-10-05 08:02:39</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Raw URL</sys_name>
+            <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_08c0e8d7c3107a10d9d679ec050131fc_raw_url_en</sys_update_name>
+            <sys_updated_by>viraj.hudlikar</sys_updated_by>
+            <sys_updated_on>2025-10-05 08:02:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

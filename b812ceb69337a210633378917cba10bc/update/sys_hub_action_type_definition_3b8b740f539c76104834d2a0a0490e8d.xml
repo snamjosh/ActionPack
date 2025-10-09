@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3b8b740f539c76104834d2a0a0490e8d</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Enable/Disable Notification Device Settings</sys_name>
         <sys_overrides/>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_3b8b740f539c76104834d2a0a0490e8d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-04 15:31:16</sys_updated_on>
+        <sys_updated_on>2025-10-09 17:05:51</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -795,11 +795,11 @@
         <sys_created_on>2025-10-04 15:23:13</sys_created_on>
         <sys_id>489cf00353dc76104834d2a0a0490ee9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>active</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3b8b740f539c76104834d2a0a0490e8d_active_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-04 15:23:13</sys_updated_on>
         <url/>
@@ -818,11 +818,11 @@
         <sys_created_on>2025-10-04 15:23:13</sys_created_on>
         <sys_id>889cf00353dc76104834d2a0a0490ed1</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>User</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3b8b740f539c76104834d2a0a0490e8d_user_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-04 15:28:17</sys_updated_on>
         <url/>
@@ -841,11 +841,11 @@
         <sys_created_on>2025-10-04 15:23:13</sys_created_on>
         <sys_id>cc9cf00353dc76104834d2a0a0490ed8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Notification Type</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3b8b740f539c76104834d2a0a0490e8d_notification_type_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-04 15:23:13</sys_updated_on>
         <url/>
@@ -887,11 +887,11 @@
         <sys_created_on>2025-10-04 15:26:45</sys_created_on>
         <sys_id>3b5df44353dc76104834d2a0a0490e7c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Updated Record</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3b8b740f539c76104834d2a0a0490e8d_updated_record_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-04 15:26:45</sys_updated_on>
         <url/>
@@ -910,11 +910,11 @@
         <sys_created_on>2025-10-04 15:23:13</sys_created_on>
         <sys_id>c09c340353dc76104834d2a0a0490e25</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3b8b740f539c76104834d2a0a0490e8d___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-04 15:23:13</sys_updated_on>
         <url/>
@@ -933,11 +933,11 @@
         <sys_created_on>2025-10-04 15:23:13</sys_created_on>
         <sys_id>c49c340353dc76104834d2a0a0490e2b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3b8b740f539c76104834d2a0a0490e8d___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-04 15:23:13</sys_updated_on>
         <url/>
@@ -1752,11 +1752,11 @@
         <sys_created_on>2025-10-04 15:28:18</sys_created_on>
         <sys_id>66bdb08353dc76104834d2a0a0490e9c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>active</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e6bdb08353dc76104834d2a0a0490e7b_active_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-04 15:28:18</sys_updated_on>
         <url/>
@@ -1775,11 +1775,11 @@
         <sys_created_on>2025-10-04 15:28:18</sys_created_on>
         <sys_id>a2bdb08353dc76104834d2a0a0490e83</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>User</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e6bdb08353dc76104834d2a0a0490e7b_user_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-04 15:28:18</sys_updated_on>
         <url/>
@@ -1798,11 +1798,11 @@
         <sys_created_on>2025-10-04 15:28:18</sys_created_on>
         <sys_id>e2bdb08353dc76104834d2a0a0490e98</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Notification Type</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_e6bdb08353dc76104834d2a0a0490e7b_notification_type_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-04 15:28:18</sys_updated_on>
         <url/>
@@ -1944,11 +1944,11 @@
         <sys_created_on>2025-10-04 15:28:19</sys_created_on>
         <sys_id>6ebdb08353dc76104834d2a0a0490ecf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e6bdb08353dc76104834d2a0a0490e7b___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-04 15:28:19</sys_updated_on>
         <url/>
@@ -1967,11 +1967,11 @@
         <sys_created_on>2025-10-04 15:28:18</sys_created_on>
         <sys_id>e6bdb08353dc76104834d2a0a0490ec5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Updated Record</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e6bdb08353dc76104834d2a0a0490e7b_updated_record_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-04 15:28:18</sys_updated_on>
         <url/>
@@ -1990,11 +1990,11 @@
         <sys_created_on>2025-10-04 15:28:18</sys_created_on>
         <sys_id>eabdb08353dc76104834d2a0a0490ec9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e6bdb08353dc76104834d2a0a0490e7b___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-04 15:28:18</sys_updated_on>
         <url/>

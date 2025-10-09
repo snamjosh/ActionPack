@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="algorithm" table="var__m_sys_hub_action_input_77fcf30047e472108633e99b116d4383" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>algorithm</element>
+            <name>var__m_sys_hub_action_input_77fcf30047e472108633e99b116d4383</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-09 17:06:12</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>algorithm</sys_name>
+            <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_77fcf30047e472108633e99b116d4383_algorithm</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-09 17:06:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>algorithm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HMAC-SHA256</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_77fcf30047e472108633e99b116d4383</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-08 08:23:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-08 08:24:51</sys_updated_on>
+            <value>HmacSHA256</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>algorithm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HMAC-SHA1</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_77fcf30047e472108633e99b116d4383</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-08 08:23:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-08 08:24:51</sys_updated_on>
+            <value>HmacSHA1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>algorithm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HMAC-MD5</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_77fcf30047e472108633e99b116d4383</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-08 08:23:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-08 08:24:51</sys_updated_on>
+            <value>Hmacmd5</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

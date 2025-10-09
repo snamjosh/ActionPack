@@ -31,15 +31,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>83b67d4ec39cb6108dbc32f1b40131a3</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Get Latest Journal Entry</sys_name>
         <sys_overrides/>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_83b67d4ec39cb6108dbc32f1b40131a3</sys_update_name>
-        <sys_updated_by>nia.mccash</sys_updated_by>
-        <sys_updated_on>2025-10-02 19:18:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-09 17:06:20</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -185,18 +185,6 @@
         <sys_updated_on>2025-10-02 19:16:23</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_de98b902c3dcb6108dbc32f1b4013137</table>
         <value>{{action.journal_type}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>de98b902c3dcb6108dbc32f1b4013137</id>
-        <sys_created_by>nia.mccash</sys_created_by>
-        <sys_created_on>2025-10-02 19:16:23</sys_created_on>
-        <sys_id>4cce935ac31c3a108dbc32f1b4013106</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nia.mccash</sys_updated_by>
-        <sys_updated_on>2025-10-02 19:16:23</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>sysid</field>
@@ -573,11 +561,11 @@
         <sys_created_on>2025-10-01 20:12:49</sys_created_on>
         <sys_id>0512220ac390f6108dbc32f1b4013156</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Journal Entry</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_de98b902c3dcb6108dbc32f1b4013137_journal_entry_en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 20:12:49</sys_updated_on>
         <url/>
@@ -596,11 +584,11 @@
         <sys_created_on>2025-10-01 17:13:34</sys_created_on>
         <sys_id>5f09f142c3dcb6108dbc32f1b40131e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>comment</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_de98b902c3dcb6108dbc32f1b4013137_comment_en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 17:13:34</sys_updated_on>
         <url/>
@@ -1146,11 +1134,11 @@
         <sys_created_on>2025-10-01 20:07:55</sys_created_on>
         <sys_id>0df0a686c390f6108dbc32f1b4013155</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Journal Type</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_83b67d4ec39cb6108dbc32f1b40131a3_journal_type_en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 20:07:55</sys_updated_on>
         <url/>
@@ -1169,11 +1157,11 @@
         <sys_created_on>2025-10-01 17:11:35</sys_created_on>
         <sys_id>9298b902c3dcb6108dbc32f1b4013131</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>SysID</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_83b67d4ec39cb6108dbc32f1b40131a3_sysid_en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 17:11:35</sys_updated_on>
         <url/>
@@ -1192,11 +1180,11 @@
         <sys_created_on>2025-10-01 17:11:35</sys_created_on>
         <sys_id>9698b902c3dcb6108dbc32f1b401312d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_83b67d4ec39cb6108dbc32f1b40131a3_table_en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 17:11:35</sys_updated_on>
         <url/>
@@ -1258,11 +1246,11 @@
         <sys_created_on>2025-10-01 20:12:50</sys_created_on>
         <sys_id>8512220ac390f6108dbc32f1b401316e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Journal Entry</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_83b67d4ec39cb6108dbc32f1b40131a3_journal_entry_en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 20:12:50</sys_updated_on>
         <url/>
@@ -1281,11 +1269,11 @@
         <sys_created_on>2025-10-01 17:11:36</sys_created_on>
         <sys_id>9298b902c3dcb6108dbc32f1b4013150</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_83b67d4ec39cb6108dbc32f1b40131a3___action_status___en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 17:11:36</sys_updated_on>
         <url/>
@@ -1304,11 +1292,11 @@
         <sys_created_on>2025-10-01 17:11:36</sys_created_on>
         <sys_id>9e98b902c3dcb6108dbc32f1b4013165</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_83b67d4ec39cb6108dbc32f1b40131a3___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 17:11:36</sys_updated_on>
         <url/>
@@ -1327,11 +1315,11 @@
         <sys_created_on>2025-10-01 17:13:35</sys_created_on>
         <sys_id>ab09f142c3dcb6108dbc32f1b40131f5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>comment</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_83b67d4ec39cb6108dbc32f1b40131a3_comment_en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 17:13:35</sys_updated_on>
         <url/>
@@ -1536,18 +1524,6 @@
         <sys_updated_on>2025-10-02 19:16:57</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_e96a75c2c3dcb6108dbc32f1b40131b1</table>
         <value>{{action.journal_type}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>e96a75c2c3dcb6108dbc32f1b40131b1</id>
-        <sys_created_by>nia.mccash</sys_created_by>
-        <sys_created_on>2025-10-02 19:16:57</sys_created_on>
-        <sys_id>90ee975ac31c3a108dbc32f1b4013182</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>nia.mccash</sys_updated_by>
-        <sys_updated_on>2025-10-02 19:16:57</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>sysid</field>
@@ -1924,11 +1900,11 @@
         <sys_created_on>2025-10-01 20:15:15</sys_created_on>
         <sys_id>bca2a24ac390f6108dbc32f1b4013182</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Journal Entry</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_e96a75c2c3dcb6108dbc32f1b40131b1_journal_entry_en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 20:15:15</sys_updated_on>
         <url/>
@@ -1947,11 +1923,11 @@
         <sys_created_on>2025-10-01 17:19:28</sys_created_on>
         <sys_id>ed6a75c2c3dcb6108dbc32f1b40131bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>comment</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_e96a75c2c3dcb6108dbc32f1b40131b1_comment_en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 17:19:28</sys_updated_on>
         <url/>
@@ -2497,11 +2473,11 @@
         <sys_created_on>2025-10-01 17:19:28</sys_created_on>
         <sys_id>296a75c2c3dcb6108dbc32f1b40131a0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>SysID</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_656a75c2c3dcb6108dbc32f1b4013196_sysid_en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 17:19:28</sys_updated_on>
         <url/>
@@ -2520,11 +2496,11 @@
         <sys_created_on>2025-10-01 20:15:15</sys_created_on>
         <sys_id>e4a2a24ac390f6108dbc32f1b4013155</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Journal Type</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_656a75c2c3dcb6108dbc32f1b4013196_journal_type_en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 20:15:15</sys_updated_on>
         <url/>
@@ -2543,11 +2519,11 @@
         <sys_created_on>2025-10-01 17:19:27</sys_created_on>
         <sys_id>e96a75c2c3dcb6108dbc32f1b401319c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_656a75c2c3dcb6108dbc32f1b4013196_table_en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 17:19:27</sys_updated_on>
         <url/>
@@ -2609,11 +2585,11 @@
         <sys_created_on>2025-10-01 17:19:28</sys_created_on>
         <sys_id>396a75c2c3dcb6108dbc32f1b40131f0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_656a75c2c3dcb6108dbc32f1b4013196___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 17:19:28</sys_updated_on>
         <url/>
@@ -2632,11 +2608,11 @@
         <sys_created_on>2025-10-01 17:19:28</sys_created_on>
         <sys_id>b56a75c2c3dcb6108dbc32f1b40131de</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_656a75c2c3dcb6108dbc32f1b4013196___action_status___en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 17:19:28</sys_updated_on>
         <url/>
@@ -2655,11 +2631,11 @@
         <sys_created_on>2025-10-01 20:15:16</sys_created_on>
         <sys_id>f4a2a24ac390f6108dbc32f1b40131b1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Journal Entry</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_656a75c2c3dcb6108dbc32f1b4013196_journal_entry_en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 20:15:16</sys_updated_on>
         <url/>
@@ -2678,11 +2654,11 @@
         <sys_created_on>2025-10-01 17:19:28</sys_created_on>
         <sys_id>f56a75c2c3dcb6108dbc32f1b40131da</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>comment</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_656a75c2c3dcb6108dbc32f1b4013196_comment_en</sys_update_name>
         <sys_updated_by>nia.mccash</sys_updated_by>
         <sys_updated_on>2025-10-01 17:19:28</sys_updated_on>
         <url/>

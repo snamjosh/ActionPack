@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b5b3699c832c3210086cb5a6feaad36e</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Calculate Business Days Duration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_b5b3699c832c3210086cb5a6feaad36e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-09 03:35:22</sys_updated_on>
+        <sys_updated_on>2025-10-09 17:06:56</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -252,18 +252,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=4b486d14836c3210086cb5a6feaad3e9"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>4b486d14836c3210086cb5a6feaad3e9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-08 15:46:43</sys_created_on>
-        <sys_id>9348ad14836c3210086cb5a6feaad315</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-08 15:46:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>end_date</field>
         <id>4b486d14836c3210086cb5a6feaad3e9</id>
         <sys_created_by>admin</sys_created_by>
@@ -286,18 +274,6 @@
         <sys_updated_on>2025-10-08 15:46:43</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_4b486d14836c3210086cb5a6feaad3e9</table>
         <value>{{action.schedule.sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>4b486d14836c3210086cb5a6feaad3e9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-08 15:46:43</sys_created_on>
-        <sys_id>5b48ad14836c3210086cb5a6feaad315</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-08 15:46:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>start_date</field>
@@ -662,11 +638,11 @@
         <sys_created_on>2025-10-08 16:06:10</sys_created_on>
         <sys_id>58cc6d98836c3210086cb5a6feaad362</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Business Duration (Display)</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_4b486d14836c3210086cb5a6feaad3e9_business_duration_display_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-08 16:06:10</sys_updated_on>
         <url/>
@@ -1226,11 +1202,11 @@
         <sys_created_on>2025-10-08 15:46:42</sys_created_on>
         <sys_id>43486d14836c3210086cb5a6feaad3b2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Start Date/Time</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b5b3699c832c3210086cb5a6feaad36e_start_date_time_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-08 15:46:42</sys_updated_on>
         <url/>
@@ -1249,11 +1225,11 @@
         <sys_created_on>2025-10-08 15:46:42</sys_created_on>
         <sys_id>c3486d14836c3210086cb5a6feaad3ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Schedule</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b5b3699c832c3210086cb5a6feaad36e_schedule_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-08 15:46:42</sys_updated_on>
         <url/>
@@ -1272,11 +1248,11 @@
         <sys_created_on>2025-10-08 15:46:42</sys_created_on>
         <sys_id>cb486d14836c3210086cb5a6feaad3b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>End Date/Time</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b5b3699c832c3210086cb5a6feaad36e_end_date_time_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-08 15:46:42</sys_updated_on>
         <url/>
@@ -1296,11 +1272,11 @@
         <sys_created_on>2025-10-08 15:46:43</sys_created_on>
         <sys_id>1f48ad14836c3210086cb5a6feaad329</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b5b3699c832c3210086cb5a6feaad36e___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-08 15:46:43</sys_updated_on>
         <url/>
@@ -1319,11 +1295,11 @@
         <sys_created_on>2025-10-08 15:46:43</sys_created_on>
         <sys_id>9748ad14836c3210086cb5a6feaad32d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Business Duration (Display)</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b5b3699c832c3210086cb5a6feaad36e_business_duration_display_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-08 15:46:43</sys_updated_on>
         <url/>
@@ -1342,11 +1318,11 @@
         <sys_created_on>2025-10-08 15:46:43</sys_created_on>
         <sys_id>9b48ad14836c3210086cb5a6feaad31f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b5b3699c832c3210086cb5a6feaad36e___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-08 15:46:43</sys_updated_on>
         <url/>
@@ -1582,18 +1558,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=2641fd1083ac3210086cb5a6feaad3e1"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>2641fd1083ac3210086cb5a6feaad3e1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-08 16:25:59</sys_created_on>
-        <sys_id>6a41315083ac3210086cb5a6feaad311</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-08 16:25:59</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>end_date</field>
         <id>2641fd1083ac3210086cb5a6feaad3e1</id>
         <sys_created_by>admin</sys_created_by>
@@ -1616,18 +1580,6 @@
         <sys_updated_on>2025-10-08 16:25:59</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_2641fd1083ac3210086cb5a6feaad3e1</table>
         <value>{{action.schedule.sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>2641fd1083ac3210086cb5a6feaad3e1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-08 16:25:59</sys_created_on>
-        <sys_id>2e41315083ac3210086cb5a6feaad311</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-08 16:25:59</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>start_date</field>
@@ -1992,11 +1944,11 @@
         <sys_created_on>2025-10-08 16:25:59</sys_created_on>
         <sys_id>a241315083ac3210086cb5a6feaad30b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Business Duration (Display)</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_2641fd1083ac3210086cb5a6feaad3e1_business_duration_display_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-08 16:25:59</sys_updated_on>
         <url/>
@@ -2556,11 +2508,11 @@
         <sys_created_on>2025-10-08 16:25:59</sys_created_on>
         <sys_id>2241fd1083ac3210086cb5a6feaad3d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Start Date/Time</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ea41fd1083ac3210086cb5a6feaad3cd_start_date_time_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-08 16:25:59</sys_updated_on>
         <url/>
@@ -2579,11 +2531,11 @@
         <sys_created_on>2025-10-08 16:25:59</sys_created_on>
         <sys_id>2e41fd1083ac3210086cb5a6feaad3d7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>End Date/Time</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ea41fd1083ac3210086cb5a6feaad3cd_end_date_time_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-08 16:25:59</sys_updated_on>
         <url/>
@@ -2602,11 +2554,11 @@
         <sys_created_on>2025-10-08 16:25:59</sys_created_on>
         <sys_id>6641fd1083ac3210086cb5a6feaad3dc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Schedule</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ea41fd1083ac3210086cb5a6feaad3cd_schedule_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-08 16:25:59</sys_updated_on>
         <url/>
@@ -2626,11 +2578,11 @@
         <sys_created_on>2025-10-08 16:26:00</sys_created_on>
         <sys_id>2e41315083ac3210086cb5a6feaad319</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ea41fd1083ac3210086cb5a6feaad3cd___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-08 16:26:00</sys_updated_on>
         <url/>
@@ -2649,11 +2601,11 @@
         <sys_created_on>2025-10-08 16:26:00</sys_created_on>
         <sys_id>6641315083ac3210086cb5a6feaad31f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ea41fd1083ac3210086cb5a6feaad3cd___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-08 16:26:00</sys_updated_on>
         <url/>
@@ -2672,11 +2624,11 @@
         <sys_created_on>2025-10-08 16:26:00</sys_created_on>
         <sys_id>a241315083ac3210086cb5a6feaad323</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Business Duration (Display)</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ea41fd1083ac3210086cb5a6feaad3cd_business_duration_display_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-08 16:26:00</sys_updated_on>
         <url/>

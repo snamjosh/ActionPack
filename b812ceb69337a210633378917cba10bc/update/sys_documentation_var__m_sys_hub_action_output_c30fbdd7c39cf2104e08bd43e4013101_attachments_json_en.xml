@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="attachments_json" label="attachments_json" language="en" table="var__m_sys_hub_action_output_c30fbdd7c39cf2104e08bd43e4013101">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>attachments_json</element>
+            <help/>
+            <hint/>
+            <label>attachments_json</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_c30fbdd7c39cf2104e08bd43e4013101</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-05 14:52:11</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>attachments_json</sys_name>
+            <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c30fbdd7c39cf2104e08bd43e4013101_attachments_json_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-05 14:52:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -41,7 +41,7 @@ Identifying mismatches in multi-reference fields</description>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>94f52517c31cf2104e08bd43e40131f3</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>GlideList Comparator</sys_name>
         <sys_overrides/>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
@@ -49,7 +49,7 @@ Identifying mismatches in multi-reference fields</description>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_94f52517c31cf2104e08bd43e40131f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-05 13:54:58</sys_updated_on>
+        <sys_updated_on>2025-10-09 17:06:37</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -288,18 +288,6 @@ Identifying mismatches in multi-reference fields</description>
         <sys_updated_on>2025-10-05 13:14:35</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_e9b82d1bc31cf2104e08bd43e4013184</table>
         <value>{{action.record_sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>e9b82d1bc31cf2104e08bd43e4013184</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-05 13:54:50</sys_created_on>
-        <sys_id>5be13197c35cf2104e08bd43e40131b6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-05 13:54:50</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
@@ -983,7 +971,6 @@ Identifying mismatches in multi-reference fields</description>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e9b82d1bc31cf2104e08bd43e4013184"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e9b82d1bc31cf2104e08bd43e4013184^sys_idNOT IN21b82d1bc31cf2104e08bd43e4013199,65b82d1bc31cf2104e08bd43e40131a3,adb82d1bc31cf2104e08bd43e401319f,e5b82d1bc31cf2104e08bd43e401319c"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>only_in_a</element>
         <help/>
@@ -997,11 +984,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:14:35</sys_created_on>
         <sys_id>21b82d1bc31cf2104e08bd43e4013199</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>only_in_a</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_e9b82d1bc31cf2104e08bd43e4013184_only_in_a_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:14:35</sys_updated_on>
         <url/>
@@ -1020,11 +1007,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:14:35</sys_created_on>
         <sys_id>65b82d1bc31cf2104e08bd43e40131a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_e9b82d1bc31cf2104e08bd43e4013184_error_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:14:35</sys_updated_on>
         <url/>
@@ -1043,11 +1030,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:14:35</sys_created_on>
         <sys_id>adb82d1bc31cf2104e08bd43e401319f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>common_items</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_e9b82d1bc31cf2104e08bd43e4013184_common_items_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:14:35</sys_updated_on>
         <url/>
@@ -1066,11 +1053,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:14:35</sys_created_on>
         <sys_id>e5b82d1bc31cf2104e08bd43e401319c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>only_in_b</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_e9b82d1bc31cf2104e08bd43e4013184_only_in_b_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:14:35</sys_updated_on>
         <url/>
@@ -1990,7 +1977,6 @@ Identifying mismatches in multi-reference fields</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:51:58</sys_updated_on>
     </sys_hub_status_condition>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_94f52517c31cf2104e08bd43e40131f3^sys_idNOT IN2db82d1bc31cf2104e08bd43e4013166,65b82d1bc31cf2104e08bd43e4013173,a1b82d1bc31cf2104e08bd43e401316f,edb82d1bc31cf2104e08bd43e401316a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>record_sys_id</element>
         <help/>
@@ -2004,11 +1990,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:14:34</sys_created_on>
         <sys_id>2db82d1bc31cf2104e08bd43e4013166</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record Sys ID</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_94f52517c31cf2104e08bd43e40131f3_record_sys_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:14:34</sys_updated_on>
         <url/>
@@ -2027,11 +2013,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:14:35</sys_created_on>
         <sys_id>65b82d1bc31cf2104e08bd43e4013173</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>List B Field</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_94f52517c31cf2104e08bd43e40131f3_list_b_field_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:14:35</sys_updated_on>
         <url/>
@@ -2050,11 +2036,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:14:35</sys_created_on>
         <sys_id>a1b82d1bc31cf2104e08bd43e401316f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>List A Field</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_94f52517c31cf2104e08bd43e40131f3_list_a_field_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:14:35</sys_updated_on>
         <url/>
@@ -2073,18 +2059,17 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:14:34</sys_created_on>
         <sys_id>edb82d1bc31cf2104e08bd43e401316a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_94f52517c31cf2104e08bd43e40131f3_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:14:34</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_94f52517c31cf2104e08bd43e40131f3"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_94f52517c31cf2104e08bd43e40131f3^sys_idNOT IN3db82d1bc31cf2104e08bd43e40131b5,71b82d1bc31cf2104e08bd43e40131f3,b5b82d1bc31cf2104e08bd43e40131c6,b9b82d1bc31cf2104e08bd43e40131cd,bdb82d1bc31cf2104e08bd43e40131ee,f9b82d1bc31cf2104e08bd43e40131ea"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
@@ -2098,11 +2083,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:14:35</sys_created_on>
         <sys_id>3db82d1bc31cf2104e08bd43e40131b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_94f52517c31cf2104e08bd43e40131f3___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:14:35</sys_updated_on>
         <url/>
@@ -2121,11 +2106,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:14:36</sys_created_on>
         <sys_id>71b82d1bc31cf2104e08bd43e40131f3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_94f52517c31cf2104e08bd43e40131f3_error_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:14:36</sys_updated_on>
         <url/>
@@ -2144,11 +2129,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:14:35</sys_created_on>
         <sys_id>b5b82d1bc31cf2104e08bd43e40131c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>only_in_a</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_94f52517c31cf2104e08bd43e40131f3_only_in_a_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:14:35</sys_updated_on>
         <url/>
@@ -2167,11 +2152,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:14:36</sys_created_on>
         <sys_id>b9b82d1bc31cf2104e08bd43e40131cd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_94f52517c31cf2104e08bd43e40131f3___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:14:36</sys_updated_on>
         <url/>
@@ -2190,11 +2175,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:14:36</sys_created_on>
         <sys_id>bdb82d1bc31cf2104e08bd43e40131ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>common_items</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_94f52517c31cf2104e08bd43e40131f3_common_items_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:14:36</sys_updated_on>
         <url/>
@@ -2213,11 +2198,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:14:36</sys_created_on>
         <sys_id>f9b82d1bc31cf2104e08bd43e40131ea</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>only_in_b</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_94f52517c31cf2104e08bd43e40131f3_only_in_b_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:14:36</sys_updated_on>
         <url/>
@@ -2525,18 +2510,6 @@ Identifying mismatches in multi-reference fields</description>
         <sys_updated_on>2025-10-05 13:41:52</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_5dfea953c35cf2104e08bd43e4013118</table>
         <value>{{action.record_sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>5dfea953c35cf2104e08bd43e4013118</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-05 13:54:58</sys_created_on>
-        <sys_id>01f1b197c35cf2104e08bd43e401310c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-05 13:54:58</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
@@ -3220,7 +3193,6 @@ Identifying mismatches in multi-reference fields</description>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=5dfea953c35cf2104e08bd43e4013118"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_5dfea953c35cf2104e08bd43e4013118^sys_idNOT IN15fea953c35cf2104e08bd43e4013133,5dfea953c35cf2104e08bd43e401312f,91fea953c35cf2104e08bd43e401313a,d9fea953c35cf2104e08bd43e4013136"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>only_in_b</element>
         <help/>
@@ -3234,11 +3206,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:41:52</sys_created_on>
         <sys_id>15fea953c35cf2104e08bd43e4013133</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>only_in_b</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5dfea953c35cf2104e08bd43e4013118_only_in_b_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:41:52</sys_updated_on>
         <url/>
@@ -3257,11 +3229,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:41:52</sys_created_on>
         <sys_id>5dfea953c35cf2104e08bd43e401312f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>only_in_a</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5dfea953c35cf2104e08bd43e4013118_only_in_a_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:41:52</sys_updated_on>
         <url/>
@@ -3280,11 +3252,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:41:52</sys_created_on>
         <sys_id>91fea953c35cf2104e08bd43e401313a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5dfea953c35cf2104e08bd43e4013118_error_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:41:52</sys_updated_on>
         <url/>
@@ -3303,11 +3275,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:41:52</sys_created_on>
         <sys_id>d9fea953c35cf2104e08bd43e4013136</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>common_items</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5dfea953c35cf2104e08bd43e4013118_common_items_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:41:52</sys_updated_on>
         <url/>
@@ -4227,7 +4199,6 @@ Identifying mismatches in multi-reference fields</description>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:54:58</sys_updated_on>
     </sys_hub_status_condition>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_49fe6953c35cf2104e08bd43e40131f3^sys_idNOT IN15fe6953c35cf2104e08bd43e40131ff,1dfea953c35cf2104e08bd43e4013113,c1fe6953c35cf2104e08bd43e40131fb,d9fea953c35cf2104e08bd43e401310f"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
         <help/>
@@ -4241,11 +4212,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:41:52</sys_created_on>
         <sys_id>15fe6953c35cf2104e08bd43e40131ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_49fe6953c35cf2104e08bd43e40131f3_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:41:52</sys_updated_on>
         <url/>
@@ -4264,11 +4235,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:41:52</sys_created_on>
         <sys_id>1dfea953c35cf2104e08bd43e4013113</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>List B Field</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_49fe6953c35cf2104e08bd43e40131f3_list_b_field_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:41:52</sys_updated_on>
         <url/>
@@ -4287,11 +4258,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:41:52</sys_created_on>
         <sys_id>c1fe6953c35cf2104e08bd43e40131fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record Sys ID</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_49fe6953c35cf2104e08bd43e40131f3_record_sys_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:41:52</sys_updated_on>
         <url/>
@@ -4310,18 +4281,17 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:41:52</sys_created_on>
         <sys_id>d9fea953c35cf2104e08bd43e401310f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>List A Field</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_49fe6953c35cf2104e08bd43e40131f3_list_a_field_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:41:52</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_49fe6953c35cf2104e08bd43e40131f3"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_49fe6953c35cf2104e08bd43e40131f3^sys_idNOT IN55fea953c35cf2104e08bd43e4013157,61fea953c35cf2104e08bd43e4013172,65fea953c35cf2104e08bd43e401317a,9dfea953c35cf2104e08bd43e4013167,e1fea953c35cf2104e08bd43e4013176,edfea953c35cf2104e08bd43e401316d"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
@@ -4335,11 +4305,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:41:53</sys_created_on>
         <sys_id>55fea953c35cf2104e08bd43e4013157</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_49fe6953c35cf2104e08bd43e40131f3___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:41:53</sys_updated_on>
         <url/>
@@ -4358,11 +4328,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:41:53</sys_created_on>
         <sys_id>61fea953c35cf2104e08bd43e4013172</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>only_in_b</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_49fe6953c35cf2104e08bd43e40131f3_only_in_b_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:41:53</sys_updated_on>
         <url/>
@@ -4381,11 +4351,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:41:53</sys_created_on>
         <sys_id>65fea953c35cf2104e08bd43e401317a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_49fe6953c35cf2104e08bd43e40131f3_error_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:41:53</sys_updated_on>
         <url/>
@@ -4404,11 +4374,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:41:53</sys_created_on>
         <sys_id>9dfea953c35cf2104e08bd43e4013167</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>only_in_a</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_49fe6953c35cf2104e08bd43e40131f3_only_in_a_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:41:53</sys_updated_on>
         <url/>
@@ -4427,11 +4397,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:41:53</sys_created_on>
         <sys_id>e1fea953c35cf2104e08bd43e4013176</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>common_items</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_49fe6953c35cf2104e08bd43e40131f3_common_items_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:41:53</sys_updated_on>
         <url/>
@@ -4450,11 +4420,11 @@ Identifying mismatches in multi-reference fields</description>
         <sys_created_on>2025-10-05 13:41:53</sys_created_on>
         <sys_id>edfea953c35cf2104e08bd43e401316d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_49fe6953c35cf2104e08bd43e40131f3___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-05 13:41:53</sys_updated_on>
         <url/>

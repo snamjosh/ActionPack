@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b01a4d6a839cb6107ffb1630ceaad395</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Strip top lines from csv file</sys_name>
         <sys_overrides/>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_b01a4d6a839cb6107ffb1630ceaad395</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-03 03:13:37</sys_updated_on>
+        <sys_updated_on>2025-10-09 17:06:50</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -274,18 +274,6 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5dda41ea839cb6107ffb1630ceaad34b"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>5dda41ea839cb6107ffb1630ceaad34b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-03 03:08:37</sys_created_on>
-        <sys_id>a1da41ea839cb6107ffb1630ceaad36d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-03 03:08:37</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>attachmentSysId</field>
         <id>5dda41ea839cb6107ffb1630ceaad34b</id>
         <sys_created_by>admin</sys_created_by>
@@ -344,18 +332,6 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_updated_on>2025-10-03 03:08:37</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_5dda41ea839cb6107ffb1630ceaad34b</table>
         <value>{{action.parenttable}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>5dda41ea839cb6107ffb1630ceaad34b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-03 03:08:37</sys_created_on>
-        <sys_id>65da41ea839cb6107ffb1630ceaad36d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-03 03:08:37</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>writeBackAsAttachment</field>
@@ -1052,11 +1028,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:08:36</sys_created_on>
         <sys_id>25da41ea839cb6107ffb1630ceaad365</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cleanedAttachmentSysId</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5dda41ea839cb6107ffb1630ceaad34b_cleanedattachmentsysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:08:36</sys_updated_on>
         <url/>
@@ -1075,11 +1051,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:08:36</sys_created_on>
         <sys_id>65da41ea839cb6107ffb1630ceaad362</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cleanedCSV</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5dda41ea839cb6107ffb1630ceaad34b_cleanedcsv_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:08:36</sys_updated_on>
         <url/>
@@ -1964,11 +1940,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:06:43</sys_created_on>
         <sys_id>716ac5aa839cb6107ffb1630ceaad38c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>parentTable</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b01a4d6a839cb6107ffb1630ceaad395_parenttable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:06:43</sys_updated_on>
         <url/>
@@ -1987,11 +1963,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:06:43</sys_created_on>
         <sys_id>756ac5aa839cb6107ffb1630ceaad393</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>newFileName</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b01a4d6a839cb6107ffb1630ceaad395_newfilename_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:06:43</sys_updated_on>
         <url/>
@@ -2010,11 +1986,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:06:43</sys_created_on>
         <sys_id>7d6ac5aa839cb6107ffb1630ceaad384</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>linesToSkip</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b01a4d6a839cb6107ffb1630ceaad395_linestoskip_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:06:43</sys_updated_on>
         <url/>
@@ -2033,11 +2009,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:06:43</sys_created_on>
         <sys_id>f16ac5aa839cb6107ffb1630ceaad381</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>attachmentSysId</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b01a4d6a839cb6107ffb1630ceaad395_attachmentsysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:06:43</sys_updated_on>
         <url/>
@@ -2056,11 +2032,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:06:43</sys_created_on>
         <sys_id>f56ac5aa839cb6107ffb1630ceaad388</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>writeBackAsAttachment</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b01a4d6a839cb6107ffb1630ceaad395_writebackasattachment_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:06:43</sys_updated_on>
         <url/>
@@ -2079,11 +2055,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:06:43</sys_created_on>
         <sys_id>f96ac5aa839cb6107ffb1630ceaad38f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>parentSysId</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b01a4d6a839cb6107ffb1630ceaad395_parentsysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:06:43</sys_updated_on>
         <url/>
@@ -2103,11 +2079,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:06:43</sys_created_on>
         <sys_id>356ac5aa839cb6107ffb1630ceaad3a1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b01a4d6a839cb6107ffb1630ceaad395___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:06:43</sys_updated_on>
         <url/>
@@ -2126,11 +2102,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:07:06</sys_created_on>
         <sys_id>637a49aa839cb6107ffb1630ceaad391</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cleanedCSV</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b01a4d6a839cb6107ffb1630ceaad395_cleanedcsv_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:07:06</sys_updated_on>
         <url/>
@@ -2149,11 +2125,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:07:06</sys_created_on>
         <sys_id>677a49aa839cb6107ffb1630ceaad397</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cleanedAttachmentSysId</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b01a4d6a839cb6107ffb1630ceaad395_cleanedattachmentsysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:07:06</sys_updated_on>
         <url/>
@@ -2172,11 +2148,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:06:43</sys_created_on>
         <sys_id>756ac5aa839cb6107ffb1630ceaad39b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b01a4d6a839cb6107ffb1630ceaad395___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:06:43</sys_updated_on>
         <url/>
@@ -2470,18 +2446,6 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=3afb892e839cb6107ffb1630ceaad359"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>3afb892e839cb6107ffb1630ceaad359</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-03 03:13:37</sys_created_on>
-        <sys_id>fafb892e839cb6107ffb1630ceaad388</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-03 03:13:37</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>attachmentSysId</field>
         <id>3afb892e839cb6107ffb1630ceaad359</id>
         <sys_created_by>admin</sys_created_by>
@@ -2540,18 +2504,6 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_updated_on>2025-10-03 03:13:37</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_3afb892e839cb6107ffb1630ceaad359</table>
         <value>{{action.parenttable}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>3afb892e839cb6107ffb1630ceaad359</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-03 03:13:37</sys_created_on>
-        <sys_id>befb892e839cb6107ffb1630ceaad388</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-03 03:13:37</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>writeBackAsAttachment</field>
@@ -3248,11 +3200,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:13:37</sys_created_on>
         <sys_id>befb892e839cb6107ffb1630ceaad381</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cleanedAttachmentSysId</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3afb892e839cb6107ffb1630ceaad359_cleanedattachmentsysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:13:37</sys_updated_on>
         <url/>
@@ -3271,11 +3223,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:13:37</sys_created_on>
         <sys_id>fefb892e839cb6107ffb1630ceaad37e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cleanedCSV</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3afb892e839cb6107ffb1630ceaad359_cleanedcsv_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:13:37</sys_updated_on>
         <url/>
@@ -4160,11 +4112,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:13:36</sys_created_on>
         <sys_id>32fb892e839cb6107ffb1630ceaad34a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>writeBackAsAttachment</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_66fb892e839cb6107ffb1630ceaad33c_writebackasattachment_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:13:36</sys_updated_on>
         <url/>
@@ -4183,11 +4135,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:13:36</sys_created_on>
         <sys_id>7afb892e839cb6107ffb1630ceaad34d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>parentTable</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_66fb892e839cb6107ffb1630ceaad33c_parenttable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:13:36</sys_updated_on>
         <url/>
@@ -4206,11 +4158,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:13:36</sys_created_on>
         <sys_id>aefb892e839cb6107ffb1630ceaad342</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>attachmentSysId</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_66fb892e839cb6107ffb1630ceaad33c_attachmentsysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:13:36</sys_updated_on>
         <url/>
@@ -4229,11 +4181,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:13:36</sys_created_on>
         <sys_id>b2fb892e839cb6107ffb1630ceaad351</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>parentSysId</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_66fb892e839cb6107ffb1630ceaad33c_parentsysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:13:36</sys_updated_on>
         <url/>
@@ -4252,11 +4204,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:13:36</sys_created_on>
         <sys_id>e6fb892e839cb6107ffb1630ceaad346</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>linesToSkip</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_66fb892e839cb6107ffb1630ceaad33c_linestoskip_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:13:36</sys_updated_on>
         <url/>
@@ -4275,11 +4227,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:13:36</sys_created_on>
         <sys_id>fafb892e839cb6107ffb1630ceaad354</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>newFileName</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_66fb892e839cb6107ffb1630ceaad33c_newfilename_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:13:36</sys_updated_on>
         <url/>
@@ -4299,11 +4251,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:13:37</sys_created_on>
         <sys_id>72fb892e839cb6107ffb1630ceaad395</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_66fb892e839cb6107ffb1630ceaad33c___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:13:37</sys_updated_on>
         <url/>
@@ -4322,11 +4274,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:13:37</sys_created_on>
         <sys_id>b6fb892e839cb6107ffb1630ceaad391</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cleanedCSV</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_66fb892e839cb6107ffb1630ceaad33c_cleanedcsv_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:13:37</sys_updated_on>
         <url/>
@@ -4345,11 +4297,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:13:37</sys_created_on>
         <sys_id>bafb892e839cb6107ffb1630ceaad398</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cleanedAttachmentSysId</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_66fb892e839cb6107ffb1630ceaad33c_cleanedattachmentsysid_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:13:37</sys_updated_on>
         <url/>
@@ -4368,11 +4320,11 @@ gs.info("[CSV Cleaner] Starting execution...");&#13;
         <sys_created_on>2025-10-03 03:13:37</sys_created_on>
         <sys_id>fefb892e839cb6107ffb1630ceaad39d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_66fb892e839cb6107ffb1630ceaad33c___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-03 03:13:37</sys_updated_on>
         <url/>

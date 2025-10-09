@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="insert_count" label="insert_count" language="en" table="var__m_sys_hub_step_ext_output_e9e17094c3a0b2104e08bd43e40131aa">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>insert_count</element>
+            <help/>
+            <hint/>
+            <label>insert_count</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_e9e17094c3a0b2104e08bd43e40131aa</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-08 11:49:03</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>insert_count</sys_name>
+            <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_e9e17094c3a0b2104e08bd43e40131aa_insert_count_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-08 11:49:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

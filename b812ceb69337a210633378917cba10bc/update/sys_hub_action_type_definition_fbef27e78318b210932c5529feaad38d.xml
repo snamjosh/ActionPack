@@ -35,15 +35,15 @@ Inputs required:
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fbef27e78318b210932c5529feaad38d</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Update Catalog Item Variable - Enhanced</sys_name>
         <sys_overrides/>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_fbef27e78318b210932c5529feaad38d</sys_update_name>
-        <sys_updated_by>GokulkumarV</sys_updated_by>
-        <sys_updated_on>2025-10-06 17:56:11</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-09 17:07:33</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -220,18 +220,6 @@ Inputs required:
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=14ff67e78318b210932c5529feaad31e"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>14ff67e78318b210932c5529feaad31e</id>
-        <sys_created_by>GokulkumarV</sys_created_by>
-        <sys_created_on>2025-10-06 17:43:53</sys_created_on>
-        <sys_id>5cff67e78318b210932c5529feaad37c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>GokulkumarV</sys_updated_by>
-        <sys_updated_on>2025-10-06 17:43:53</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>catalog_item</field>
         <id>14ff67e78318b210932c5529feaad31e</id>
         <sys_created_by>GokulkumarV</sys_created_by>
@@ -254,18 +242,6 @@ Inputs required:
         <sys_updated_on>2025-10-06 17:43:53</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_14ff67e78318b210932c5529feaad31e</table>
         <value>{{action.requested_item}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>14ff67e78318b210932c5529feaad31e</id>
-        <sys_created_by>GokulkumarV</sys_created_by>
-        <sys_created_on>2025-10-06 17:43:53</sys_created_on>
-        <sys_id>10ff67e78318b210932c5529feaad37d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>GokulkumarV</sys_updated_by>
-        <sys_updated_on>2025-10-06 17:43:53</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>variable_template</field>
@@ -736,11 +712,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:43:53</sys_created_on>
         <sys_id>18ff67e78318b210932c5529feaad333</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Success</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_14ff67e78318b210932c5529feaad31e_success_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:43:53</sys_updated_on>
         <url/>
@@ -759,11 +735,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:43:53</sys_created_on>
         <sys_id>1cff67e78318b210932c5529feaad336</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Message</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_14ff67e78318b210932c5529feaad31e_message_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:43:53</sys_updated_on>
         <url/>
@@ -1469,11 +1445,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:43:52</sys_created_on>
         <sys_id>40ff27e78318b210932c5529feaad399</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Requested Item</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fbef27e78318b210932c5529feaad38d_requested_item_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:43:52</sys_updated_on>
         <url/>
@@ -1492,11 +1468,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:43:53</sys_created_on>
         <sys_id>80ff27e78318b210932c5529feaad3f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Variable values</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fbef27e78318b210932c5529feaad38d_variable_values_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:43:53</sys_updated_on>
         <url/>
@@ -1515,11 +1491,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:43:53</sys_created_on>
         <sys_id>c0ff27e78318b210932c5529feaad3f5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Catalog Item</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fbef27e78318b210932c5529feaad38d_catalog_item_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:43:53</sys_updated_on>
         <url/>
@@ -1539,11 +1515,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:43:54</sys_created_on>
         <sys_id>28ff67e78318b210932c5529feaad3c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fbef27e78318b210932c5529feaad38d___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:43:54</sys_updated_on>
         <url/>
@@ -1562,11 +1538,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:43:54</sys_created_on>
         <sys_id>58ff67e78318b210932c5529feaad399</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fbef27e78318b210932c5529feaad38d___action_status___en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:43:54</sys_updated_on>
         <url/>
@@ -1585,11 +1561,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:43:54</sys_created_on>
         <sys_id>58ff67e78318b210932c5529feaad39d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Message</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fbef27e78318b210932c5529feaad38d_message_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:43:54</sys_updated_on>
         <url/>
@@ -1608,11 +1584,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:43:53</sys_created_on>
         <sys_id>d4ff67e78318b210932c5529feaad395</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Success</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_fbef27e78318b210932c5529feaad38d_success_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:43:53</sys_updated_on>
         <url/>
@@ -1852,18 +1828,6 @@ Inputs required:
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=3bf0fbeb8318b210932c5529feaad337"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>3bf0fbeb8318b210932c5529feaad337</id>
-        <sys_created_by>GokulkumarV</sys_created_by>
-        <sys_created_on>2025-10-06 17:48:30</sys_created_on>
-        <sys_id>f7f0fbeb8318b210932c5529feaad357</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>GokulkumarV</sys_updated_by>
-        <sys_updated_on>2025-10-06 17:48:30</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>catalog_item</field>
         <id>3bf0fbeb8318b210932c5529feaad337</id>
         <sys_created_by>GokulkumarV</sys_created_by>
@@ -1886,18 +1850,6 @@ Inputs required:
         <sys_updated_on>2025-10-06 17:48:30</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_3bf0fbeb8318b210932c5529feaad337</table>
         <value>{{action.requested_item}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>3bf0fbeb8318b210932c5529feaad337</id>
-        <sys_created_by>GokulkumarV</sys_created_by>
-        <sys_created_on>2025-10-06 17:48:30</sys_created_on>
-        <sys_id>bbf0fbeb8318b210932c5529feaad357</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>GokulkumarV</sys_updated_by>
-        <sys_updated_on>2025-10-06 17:48:30</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>variable_template</field>
@@ -2368,11 +2320,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:48:30</sys_created_on>
         <sys_id>f7f0fbeb8318b210932c5529feaad34c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Success</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3bf0fbeb8318b210932c5529feaad337_success_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:48:30</sys_updated_on>
         <url/>
@@ -2391,11 +2343,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:48:30</sys_created_on>
         <sys_id>fbf0fbeb8318b210932c5529feaad34f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Message</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3bf0fbeb8318b210932c5529feaad337_message_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:48:30</sys_updated_on>
         <url/>
@@ -3078,11 +3030,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:48:29</sys_created_on>
         <sys_id>67f0fbeb8318b210932c5529feaad32a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Catalog Item</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6bf0fbeb8318b210932c5529feaad30f_catalog_item_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:48:29</sys_updated_on>
         <url/>
@@ -3101,11 +3053,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:48:29</sys_created_on>
         <sys_id>a3f0fbeb8318b210932c5529feaad32e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Variable values</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6bf0fbeb8318b210932c5529feaad30f_variable_values_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:48:29</sys_updated_on>
         <url/>
@@ -3124,11 +3076,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:48:29</sys_created_on>
         <sys_id>a7f0fbeb8318b210932c5529feaad325</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Requested Item</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_6bf0fbeb8318b210932c5529feaad30f_requested_item_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:48:29</sys_updated_on>
         <url/>
@@ -3148,11 +3100,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:48:30</sys_created_on>
         <sys_id>3bf0fbeb8318b210932c5529feaad36f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Success</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6bf0fbeb8318b210932c5529feaad30f_success_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:48:30</sys_updated_on>
         <url/>
@@ -3171,11 +3123,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:48:30</sys_created_on>
         <sys_id>3bf0fbeb8318b210932c5529feaad3a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6bf0fbeb8318b210932c5529feaad30f___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:48:30</sys_updated_on>
         <url/>
@@ -3194,11 +3146,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:48:30</sys_created_on>
         <sys_id>77f0fbeb8318b210932c5529feaad377</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Message</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6bf0fbeb8318b210932c5529feaad30f_message_en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:48:30</sys_updated_on>
         <url/>
@@ -3217,11 +3169,11 @@ Inputs required:
         <sys_created_on>2025-10-06 17:48:30</sys_created_on>
         <sys_id>f7f0fbeb8318b210932c5529feaad373</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Action Pack" source="x_snc_actionpack">b812ceb69337a210633378917cba10bc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Action Pack">b812ceb69337a210633378917cba10bc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6bf0fbeb8318b210932c5529feaad30f___action_status___en</sys_update_name>
         <sys_updated_by>GokulkumarV</sys_updated_by>
         <sys_updated_on>2025-10-06 17:48:30</sys_updated_on>
         <url/>
